@@ -1,0 +1,93 @@
+---
+layout: page
+permalink: /team/
+title: Team
+---
+
+
+<h3>Members</h3>
+<div class="row mb-4">
+    {% assign people = site.data.team_members | sort: "name" %}
+    {% for member in people %}
+    <div class="col-12 col-lg-6 mb-3">
+        <div class="card team-member">
+            <div class="row g-0">
+                <div class="col-auto p-2">
+                    <img class="img-thumbnail rounded-circle" src="{{ '/assets/images/team' | relative_url }}/{{ member.photo | default: 'avatar.jpg' }}" alt="{{ member.name }}">
+                </div>
+                <div class="col">
+                    <div class="card-body">
+                        <h6 class="card-title">{{ member.name }}</h6>
+                        <h6 class="card-subtitle text-muted">{{ member.title }}</h6>
+                        <p class="card-text mt-3">
+                            <i class="bi bi-bank"></i> {{ member.institute }} <br>
+                            <i class="bi bi-envelope"></i> <a href="mailto:{{ member.email }}">{{ member.email }}</a> <br>
+                            <i class="bi bi-file-earmark-person"></i> <a href="http://lattes.cnpq.br/{{ member.lattes }}">CV Lattes</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
+<h3>Researchers</h3>
+<div class="row mb-4">
+    {% assign people = site.data.team_researchers | sort: "name" %}
+    {% for member in people %}
+    <div class="col-12 col-lg-6 mb-3">
+        <div class="card team-member">
+            <div class="row g-0">
+                <div class="col-auto p-2">
+                    <img class="img-thumbnail rounded-circle" src="{{ '/assets/images/team' | relative_url }}/{{ member.photo | default: 'avatar.jpg' }}" alt="{{ member.name }}">
+                </div>
+                <div class="col">
+                    <div class="card-body">
+                        <h6 class="card-title">{{ member.name }}</h6>
+                        <h6 class="card-subtitle text-muted">{{ member.role }}</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<h3>Collaborators</h3>
+<div class="row mb-4">
+    {% assign people = site.data.team_collaborators | sort: "name" %}
+    {% for member in people %}
+    <div class="col-12 col-lg-6 mb-3">
+        <div class="card team-member">
+            <div class="row g-0">
+                <div class="col-auto p-2">
+                    <img class="img-thumbnail rounded-circle" src="{{ '/assets/images/team' | relative_url }}/{{ member.photo | default: 'avatar.jpg' }}" alt="{{ member.name }}">
+                </div>
+                <div class="col">
+                    <div class="card-body">
+                        <h6 class="card-title">{{ member.name }}</h6>
+                        <h6 class="card-subtitle text-muted">{{ member.title }}</h6>
+                        <p class="card-text mt-3">
+                            <i class="bi bi-bank"></i> {{ member.institute }}, {{ member.country }} <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<h3>Alumni</h3>
+<div class="row mb-4 gx-4">
+    {% assign people = site.data.team_alumni | sort: "year" | reverse %}
+    {% for member in people %}
+    <div class="col-6 col-lg-3 mb-3 team-member text-center">
+        <img class="img-thumbnail rounded-circle" src="{{ '/assets/images/team' | relative_url }}/{{ member.photo | default: 'avatar.jpg' }}" alt="{{ member.name }}">
+        <h6 class="card-title mt-2 mb-0">{{ member.name }}</h6>
+        <p class="mt-1">{{ member.position }}, {{ member.year }}</p>
+    </div>
+    {% endfor %}
+</div>
