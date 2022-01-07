@@ -1,7 +1,9 @@
 - name: André Costa Batista
   role: D.Sc. student
   photo: andre-batista.jpg
+  research_interests: Microwave Imaging, Optimization, Inverse Problems
   
 - name: Jean Nunes Ribeiro Araújo
   role: D.Sc. student
   photo: jean-nunes.jpg
+  research_interests: Distributed Algorithms
