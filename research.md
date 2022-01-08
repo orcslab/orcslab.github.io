@@ -5,6 +5,98 @@ title: Research
 ---
 
 # Research Projects
+-------------------
+<br/><br/>
+
+## Modular Approaches to Optimization
+
+Development of modular descriptions and approaches for optimization algorithms, to enable a component-based analysis of the behavior of algorithms, as well as the accelerated development of new algorithmic variants and the reproducibility of methods published in the literature.
+
+**Publications**
+
+* Campelo, F., L. S. Batista, and C. Aranha. “The MOEADr Package: A Component-Based Framework for Multiobjective Evolutionary Algorithms Based on Decomposition”. *Journal of Statistical Software*, vol. 92, no. 6, Feb. 2020, pp. 1-39
+<br/><br/>
+
+## Computational Intelligence Applied to the Financial Sector
+
+Development and application of computational intelligence tools for modeling and predicting series and events related to the financial sector.
+
+**Publications**
+
+* de Arruda Pereira, Marconi, et al. "A comparative study of optimization models in genetic programming-based rule extraction problems." *Soft Computing* 23.4 (2019): 1179-1197.
+* Assis, Carlos AS, et al. "Hybrid deep learning approach for financial time series classification." *Revista Brasileira de Computação Aplicada* 10.2 (2018): 54-63.
+* de Assis, Carlos Alberto Silva, Eduardo Gontijo Carrano, and Adriano Cesar Machado Pereira. "Predição de tendências em séries financeiras utilizando metaclassificadores." *Economia Aplicada* 24.1 (2020): 29-78.
+<br/><br/>
+
+## Statistical Modeling Applied to Engineering
+
+Development, adaptation and application of statistical modeling techniques to engineering problems.
+
+**Publications**
+
+* Bessani, Michel, and Diego A. da Mata. "Exploratory Factor Analysis of Distribution Networks Characterization by Metrics of Complex Networks Theory." *Simpósio Brasileiro de Sistemas Elétricos-SBSE* 1.1 (2020).
+* da Mata, Diego A., and Michel Bessani. "Restabelecimento de Sistemas de Distribuição-Abordagem Hibrida de Algoritmo Genético e Busca local." *Simpósio Brasileiro de Sistemas Elétricos-SBSE* 1.1 (2020).
+<br/><br/>
+
+## Optimization Applied to the Electricity Sector
+
+Development of integrated optimization tools for solving problems in the electricity sector, such as: planning the robust expansion of electricity networks, asset management in the electricity sector, failure management (restoration, reconfiguration, routing of maintenance teams), among others.
+
+**Publications**
+
+* Goulart, Fillipe, et al. "Permutation-based optimization for the load restoration problem with improved time estimation of maneuvers." *International Journal of Electrical Power & Energy Systems* 101 (2018): 339-355.
+* Campelo, Felipe, et al. "Multicriteria transformer asset management with maintenance and planning perspectives." *IET Generation, Transmission & Distribution* 10.9 (2016): 2087-2097.
+* Costa, Mateus H., et al. "Minimizing undesirable load shedding through robust coordination of directional overcurrent relays." *International Journal of Electrical Power & Energy Systems* 113 (2019): 748-757.
+* Maravilha, André L., et al. "Scheduling maneuvers for the restoration of electric power distribution networks: Formulation and heuristics." *Electric Power Systems Research* 163 (2018): 301-309.
+<br/><br/>
+
+## Combinatorial Optimization – Exact methods, Heuristics and Meta-Heuristics
+
+Development of approaches to large-scale problems in combinatorial optimization, as well as the adaptation and application of existing methods to problems applied in different sectors of the industry.
+
+**Publications**
+
+* Simões, Emiliana Mara Lopes, Lucas De Souza Batista, and Marcone Jamilson Freitas Souza. "A Matheuristic Algorithm for the Multiple-Depot Vehicle and Crew Scheduling Problem." *IEEE Access* 9 (2021): 155897-155923.
+* Maravilha, André L., Eduardo G. Carrano, and Felipe Campelo. "A recombination‐based matheuristic for mixed integer programming problems with binary variables." *International Transactions in Operational Research* 27.1 (2020): 418-434.
+<br/><br/>
+
+## Network Optimization
+
+Development and application of algorithms for optimizing data networks, electrical networks, and other engineering applications.
+
+**Publications**
+
+* Araujo, Jean NR, Lucas S. Batista, and Claudio C. Monteiro. "Improving proactive routing with a multicriteria and adaptive framework in ad-hoc wireless networks." *Wireless Networks* 26.6 (2020): 4595-4614.
+* Araujo, Jean Nunes R., Claudio de Castro Monteiro, and Lucas de Souza Batista. "Multicriteria QoS-aware Solution in Wireless Multi-hop Networks." *ICWMC 2017* (2017): 25.
+<br/><br/>
+
+## Multi-Objective Optimization
+
+Development of algorithms for solving multi-objective optimization problems with specificities such as: variable uncertainties, high number of objectives, arbitrary non-linear constraints, and presence of decision maker preferences.
+
+**Publications**
+
+* Gomes, Ana Cristina Lima, Martín Gómez Ravetti, and Eduardo G. Carrano. "Multi-objective matheuristic for minimization of total tardiness and energy costs in a steel industry heat treatment line." *Computers & Industrial Engineering* 151 (2021): 106929.
+* Valadão, Mônica AC, and Lucas S. Batista. "A comparative study on surrogate models for SAEAs." *Optimization Letters* 14 (2020): 2595-2614.
+<br/><br/>
+
+## Statistical Protocols for Experimental Research on Algorithms
+
+Development of statistical protocols for experimental evaluation and comparison of algorithms, including sample size calculation, best/worst case comparison, and evaluation of convergence characteristics in the presence of censored observations.
+
+**Publications**
+
+* Campelo, Felipe, and Elizabeth F. Wanner. "Sample size calculations for the experimental comparison of multiple algorithms on multiple problem instances." *Journal of Heuristics* 26.6 (2020): 851-883.
+* Campelo, Felipe, and Fernanda Takahashi. "Sample size estimation for power and accuracy in the experimental comparison of algorithms." *Journal of Heuristics* 25.2 (2019): 305-338.
+<br/><br/>
+
+## Game Theory and Multicriteria Decision Making
+
+Development and integration of multicriteria decision-making tools for solving engineering problems.
+
+* Campolina, Paulo Azevedo Meijon, and Lucas S. Batista. "Uma estratégia automatizada de day-trade por meio de comitê de indicadores técnicos." *XIV Congresso Brasileiro de Inteligência Computacional* 1.1 (2019).
+* Campolina, Paulo Azevedo Meijon, and Lucas S. Batista. "Estratégia Automatizada de Decisão Multicritério no Mercado Financeiro". *XIV Conferência Brasileira de Dinâmica, Controle e Aplicações 1.1 (2019).
+<br/><br/>
 
 ## Microwave Imaging
 
@@ -14,11 +106,10 @@ Our goal is to improve the algorithms and methods for measuring the performance 
 
 **Publications**
 
-* Batista, André Costa, Ricardo Adriano, and Lucas S. Batista. "[EISPY2D: An Open-Source Python Library for the Development and Comparison of Algorithms in Two-Dimensional Electromagnetic Inverse Scattering Problems](https://arxiv.org/abs/2111.02185)." *arXiv preprint arXiv:2111.02185* (2021).
+* Batista, André Costa, Ricardo Adriano, and Lucas S. Batista. "EISPY2D: An Open-Source Python Library for the Development and Comparison of Algorithms in Two-Dimensional Electromagnetic Inverse Scattering Problems." *arXiv preprint arXiv:2111.02185* (2021).
 
-* Vargas, Jose O., et al. "[On the computational complexity of the conjugate-gradient method for solving inverse scattering problems](https://www.tandfonline.com/doi/abs/10.1080/09205071.2021.1946862)." *Journal of Electromagnetic Waves and Applications* (2021): 1-12.
 
-* Batista, André Costa, Lucas S. Batista, and Ricardo Adriano. "[A Quadratic Programming Approach for Microwave Imaging](https://ieeexplore.ieee.org/abstract/document/9362200)." *IEEE Transactions on Antennas and Propagation* (2021).
+* Batista, André Costa, Lucas S. Batista, and Ricardo Adriano. "A Quadratic Programming Approach for Microwave Imaging." *IEEE Transactions on Antennas and Propagation* (2021).
 
 <!-- <h3>Research</h3>
 <div class="row">

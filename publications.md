@@ -33,6 +33,8 @@ title: Publications
 
 * de Quadros Maia Filho, Danilo, and Michel Bessani. "[Multi-objective Linear Approach for the Reliability-Redundancy Allocation Problem](https://doi.org/10.1109/ICCISc52257.2021.9484933)." 2021 International Conference on Communication, Control and Information Sciences (ICCISc). Vol. 1. IEEE, 2021.
 
+* Ruela, Victor SP, and Michel Bessani. "[Investigation of Initial Data and Optimizer in Real-Time Optimization Performance via Modifier Adaptation with Gaussian Processes](https://doi.org/10.1109/CCTA48906.2021.9658960)." *2021 IEEE Conference on Control Technology and Applications (CCTA)*. IEEE, 2021.
+
 <!-- <h3>Publications</h3>
 <div class="row">
     <div class="col">
