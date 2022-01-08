@@ -1,12 +1,6 @@
-$(() => {
+$(window).on('load', () => {
 
-    // Set minimum height of container with main content
-    let height = $(window).innerHeight() - $('#navbar').height() - $('#footer').height();
-    if ($('#main-content').height() < height) {
-        $('#main-content').height(height);
-    }
-
-    $(window).resize(() => {
+    function onResize() {
         $('#main-content').height('auto');
         let height = $(window).innerHeight() - $('#navbar').height() - $('#footer').height();
         if ($('#main-content').height() < height) {
@@ -14,6 +8,9 @@ $(() => {
         } else {
             $('#main-content').height('auto');
         }
-    });
+    }
+
+    $(window).resize(onResize.bind(this));
+    onResize();
 
 });
