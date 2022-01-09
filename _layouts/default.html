@@ -26,24 +26,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                {% for item in site.data.navbar %}
+                    {% if page.url == item.url %}
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ '/' | relative_url }}">Home</a>
+                        <a class="nav-link active" aria-current="page" href="{{ item.url | relative_url }}">{{ item.title }}</a>
                     </li>
+                    {% else %}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ '/team' | relative_url }}">Team</a>
+                        <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ '/publications' | relative_url }}">Publications</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ '/research' | relative_url }}">Research</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ '/news' | relative_url }}">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ '/about' | relative_url }}">About</a>
-                    </li>
+                    {% endif %}
+                {% endfor %}
                 </ul>
             </div>
         </div>

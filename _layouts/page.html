@@ -4,5 +4,9 @@ layout: default
 
 
 <div class="container">
+    {% if page.title %}
+    <h2>{{ page.title }}</h2>
+    <hr class="mb-5">
+    {% endif %}
     {{ content }}
 </div>

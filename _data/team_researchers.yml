@@ -6,7 +6,7 @@
 - name: Jean Nunes Ribeiro Araújo
   role: D.Sc. student
   photo: jean-nunes.jpg
-  research_interests: Optimization, machine learning, computational intelligence, computer networks, distributed systems.
+  research_interests: Optimization, machine learning, computational intelligence, computer networks, distributed systems
 
 - name: Danilo de Quadros Maia Filho
   role: M.Sc. student
@@ -26,12 +26,12 @@
 - name: Emiliana Mara Lopes Simões
   role: D.Sc. student
   photo: 
-  research_interests: Combinatorial optimization, metaheuristics, public transport system planning, vehicle and crew scheduling.
+  research_interests: Combinatorial optimization, metaheuristics, public transport system planning, vehicle and crew scheduling
 
 - name: Isternândia Araújo França
   role: D.Sc. student
   photo: isternandia-franca.gif
-  research_interests: Network optimization, combinatorial optimization, network reconfiguration.
+  research_interests: Network optimization, combinatorial optimization, network reconfiguration
 
 - name: Leonardo de Alvarenga Gualberto
   role: M.Sc. student
@@ -66,7 +66,7 @@
 - name: Natália Antunes
   role: D.Sc. student
   photo: natalia-antunes.gif
-  research_interests: Combinatorial optimization, exact methods, heuristics, and meta-heuristics
+  research_interests: Combinatorial optimization, exact methods, heuristics and meta-heuristics
 
 - name: Paulo Azevedo Meijon Campolina
   role: M.Sc. student

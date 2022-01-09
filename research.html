@@ -1,0 +1,26 @@
+---
+layout: page
+permalink: /research/
+title: Research Projects
+---
+
+
+<div class="row">
+    {% assign projects =  site.data.research_projects | sort: "title" %}
+    {% for project in projects %}
+    <div class="col-12 mb-4">
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.description }}</p>
+        {% if project.publications.size > 0 %}
+        <p>
+            <span class="fw-bold">Publications:</span>
+            <ul>
+                {% for entry in project.publications %}
+                <li>{{ entry }}</li>
+                {% endfor %}
+            </ul>
+        </p>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
