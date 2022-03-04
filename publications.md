@@ -6,6 +6,8 @@ title: Publications
 
 ## Journals
 
+* Costa, Miguel Monteiro, Michel Bessani, and Lucas Batista. "[A Multiobjective and Multicriteria Approach for Optimal Placement of Protective Devices and Switches in Distribution Networks](https://ieeexplore.ieee.org/abstract/document/9580540)." *IEEE Transactions on Power Delivery* (2021).
+
 * Vargas, Jose O., et al. "[On the computational complexity of the conjugate-gradient method for solving inverse scattering problems](https://www.tandfonline.com/doi/abs/10.1080/09205071.2021.1946862)." *Journal of Electromagnetic Waves and Applications* (2021): 1-12.
 
 * Simões, Emiliana Mara Lopes, Lucas De Souza Batista, and Marcone Jamilson Freitas Souza. "[A Matheuristic Algorithm for the Multiple-Depot Vehicle and Crew Scheduling Problem](https://doi.org/10.1109/ACCESS.2021.3128871)." *IEEE Access* 9 (2021): 155897-155923.
@@ -34,6 +36,10 @@ title: Publications
 * de Quadros Maia Filho, Danilo, and Michel Bessani. "[Multi-objective Linear Approach for the Reliability-Redundancy Allocation Problem](https://doi.org/10.1109/ICCISc52257.2021.9484933)." 2021 International Conference on Communication, Control and Information Sciences (ICCISc). Vol. 1. IEEE, 2021.
 
 * Ruela, Victor SP, and Michel Bessani. "[Investigation of Initial Data and Optimizer in Real-Time Optimization Performance via Modifier Adaptation with Gaussian Processes](https://doi.org/10.1109/CCTA48906.2021.9658960)." *2021 IEEE Conference on Control Technology and Applications (CCTA)*. IEEE, 2021.
+
+* Maia, Pedro M, and Michel Bessani. "[Análise do Efeito de Incertezas de Tempo Aplicadas ao Problema de Roteamento de Veículos com Janelas de Atendimento](https://www.researchgate.net/publication/347982047_ANALISE_DO_EFEITO_DE_INCERTEZAS_DE_TEMPO_APLICADAS_AO_PROBLEMA_DE_ROTEAMENTO_DE_VEICULOS_COM_JANELAS_DE_ATENDIMENTO)." *LII Simpósio Brasileiro de Pesquisa Operacional*. SBPO, 2021.
+
+* Machado, Itallo G, and Michel Bessani. "[Aprendizagem Estrutural de Redes Bayesianas utilizando Algoritmo Genético Multi-Agente](https://www.researchgate.net/publication/353410843_Aprendizagem_Estrutural_de_Redes_Bayesianas_utilizando_Algoritmo_Genetico_Multi-Agente)." *XIV Encontro Acadêmico de Modelagem Computacional*. LNCC, 2021.
 
 ## Dissertations
 
