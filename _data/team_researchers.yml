@@ -2,7 +2,12 @@
   role: D.Sc. student
   photo: andre-batista.jpg
   research_interests: Microwave Imaging, Optimization, Inverse Problems
-  
+
+- name: Carlos Eduardo Rodrigues Nogueira
+  role: D.Sc. student
+  photo: carlos-nogueira.gif
+  research_interests: Optimization, Smart Grids, Decision Making
+
 - name: Jean Nunes Ribeiro Araújo
   role: D.Sc. student
   photo: jean-nunes.jpg
@@ -18,10 +23,10 @@
   photo: diego-mata.gif
   research_interests: Statistical modeling, survival analysis, systems reliability
 
-- name: Elcio da Silveira
-  role: D.Sc. student
-  photo: elcio-silveira.gif
-  research_interests: Evolutionary computation, multi-objective optimization
+- name: Hannah Walder Lorenzato Cardoso
+  role: M.Sc. student
+  photo: hannah-cardoso.gif
+  research_interests: Optimization, vehicle production process
 
 - name: Isternândia Araújo França
   role: D.Sc. student
@@ -33,26 +38,6 @@
   photo: leonardo-gualberto.gif
   research_interests: Evolutionary computation, large-scale optimization problems
 
-- name: Letícia Diniz da Cruz
-  role: M.Sc. student
-  photo: leticia-cruz.gif
-  research_interests: Combinatorial optimization, exact methods, heuristics and meta-heuristics
-
-- name: Marcus Vinicius do Carmo Bastos
-  role: M.Sc. student
-  photo: marcus-bastos.gif
-  research_interests: Artificial intelligence, financial series, artificial neural networks, multi-objective optimization
-
-- name: Maria Izabel Corrêa dos Santos
-  role: D.Sc. student
-  photo:
-  research_interests: Power quality, optimal power flow
-
-- name: Mariana Mendes Guimarães
-  role: D.Sc. student
-  photo: mariana-guimaraes.gif
-  research_interests: Operatios Research, project and product management
-
 - name: Miguel Monteiro Costa
   role: D.Sc. student
   photo: miguel-monteiro.gif
@@ -62,3 +47,18 @@
   role: D.Sc. student
   photo: natalia-antunes.gif
   research_interests: Combinatorial optimization, exact methods, heuristics and meta-heuristics
+
+- name: Pedro Vinícius Almeida Borges de Venâncio
+  role: D.Sc. student
+  photo: pedro-vinicius.jpeg
+  research_interests: Artificial intelligence, data science, computer vision and optimization
+
+- name: Ramon Lacerda Marques
+  role: D.Sc. student
+  photo: ramon-lacerda.gif
+  research_interests: Multi-objective optimization, electric systems, software engineering
+
+- name: Vitor Vidal de Negreiros
+  role: D.Sc. student
+  photo: vitor-vidal.gif
+  research_interests: Electronic systems and controls, software engineering, evolutionary computation
