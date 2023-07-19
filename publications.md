@@ -6,6 +6,16 @@ title: Publications
 
 ## Journals
 
+* Valadão, M., Maravilha, A., & Batista, L. (2023). [Investigation of Kriging-based SAEAs’ metamodel samples for computationally expensive optimization problems](https://doi.org/10.1007/s12065-023-00862-y). *Evolutionary Intelligence*, 1-17.
+
+* Santos, M. I., Maravilha, A., Bessani, M., Uturbey, W., & Batista, L. (2023). [A model for optimal energy management in a microgrid using biogas](https://doi.org/10.1007/s12065-023-00857-9). *Evolutionary Intelligence*, 1-19.
+
+* Ottoni, L. T. C., & Batista, L. S. (2022). [Multicriteria Analysis of Natural Gas Network Pipe Sizing Design Under Load-Evolution Uncertainty](https://doi.org/10.1007/s40313-022-00932-z). *Journal of Control, Automation and Electrical Systems*, 33(6), 1860-1873.
+
+* Carrano, E. G., Cruz, L. D., Baptista, D., Camargo, D., & Takahashi, R. H. (2022). [An efficient and fast local search based heuristic for reel management in a production line of oil extraction pipes](https://doi.org/10.1016/j.cor.2021.105547). *Computers & Operations Research*, 137, 105547.
+
+* França, I. A., Vieira, C. W., Ramos, D. C., Sathler, L. H., & Carrano, E. G. (2022). [A machine learning-based approach for comprehensive fault diagnosis in transmission lines](https://doi.org/10.1016/j.compeleceng.2022.108107). *Computers and Electrical Engineering*, 101, 108107.
+
 * Costa, Miguel Monteiro, Michel Bessani, and Lucas Batista. "[A Multiobjective and Multicriteria Approach for Optimal Placement of Protective Devices and Switches in Distribution Networks](https://ieeexplore.ieee.org/abstract/document/9580540)." *IEEE Transactions on Power Delivery* (2021).
 
 * Vargas, Jose O., et al. "[On the computational complexity of the conjugate-gradient method for solving inverse scattering problems](https://www.tandfonline.com/doi/abs/10.1080/09205071.2021.1946862)." *Journal of Electromagnetic Waves and Applications* (2021): 1-12.
@@ -31,6 +41,8 @@ title: Publications
 
 ## Conferences
 
+* Bessani, M., Batista, L. D. S., Campelo, F., & Gerais, B. R. [Characterization of Distribution Systems Topological Flexibility using Bipartite Multigraphs](). *XXIV Congresso Brasileiro de Automática-CBA*. 2022.
+
 * Ottoni, Lara T. Cordeiro, and Lucas S. Batista. "[Proposta de uma abordagem multiobjetivo para o projeto de dimensionamento de redes de gás natural](https://doi.org/10.48011/asba.v2i1.1191)." *Congresso Brasileiro de Automática-CBA*. Vol. 2. No. 1. 2020.
 
 * de Quadros Maia Filho, Danilo, and Michel Bessani. "[Multi-objective Linear Approach for the Reliability-Redundancy Allocation Problem](https://doi.org/10.1109/ICCISc52257.2021.9484933)." 2021 International Conference on Communication, Control and Information Sciences (ICCISc). Vol. 1. IEEE, 2021.
@@ -43,6 +55,8 @@ title: Publications
 
 ## Dissertations
 
+* Campolina, Paulo Azevedo Meijon. “[Automated Multicriteria Decision Strategy In The Financial Market](https://www.ppgee.ufmg.br/defesas/1631M.PDF).” *Universidade Federal de Minas Gerais*, 2022. (In Portuguese)
+* Maia, Danilo de Quadros. “[Multi-objective and Linear Approach to the Problem of Reliability Optimization and Redundancy Allocation in Series-Parallel Systems](https://www.ppgee.ufmg.br/defesas/1889M.PDF).” *Universidade Federal de Minas Gerais*, 2021. (In Portuguese)
 * Gonzaga, Eric Wilian Lage. “[Otimização Da Programação Semafórica Com Base Em Modelos Matemáticos](https://www.ppgee.ufmg.br/defesas/1253M.PDF).” *Universidade Federal de Minas Gerais*, 2016. (In Portuguese)
 * Marques, Ramon Lacerda. "[Algoritmos de Otimização para Priorização da Modernização da Proteção em Redes Elétricas](https://www.ppgee.ufmg.br/defesas/1329M.PDF)." *Universidade Federal de Minas Gerais*, 2016. (In Portuguese)
 * Nametala, Ciniro Aparecido Leite. "[Construção de um Robô Investidor Baseado em Redes Neurais Artificiais e Preditores Econométricos](https://www.ppgee.ufmg.br/defesas/1361M.PDF)." *Universidade Federal de Minas Gerais*, 2017. (In Portuguese)
@@ -68,6 +82,8 @@ title: Publications
 
 ## Thesis
 
+
+* Simões, Emiliana Mara Lopes. "[A Matheuristic Algorithm For The Multiple-depot Vehicle And Crew Scheduling Problem](https://www.ppgee.ufmg.br/defesas/1643D.PDF)." *Universidade Federal de Minas Gerais*, 2022.
 * Coelho, Dayanne Gouveia. "[Estruturas de Memória e Operadores Adaptativos em Meta-heurísticas](https://www.ppgee.ufmg.br/defesas/1071D.PDF)." *Universidade Federal de Minas Gerais*, 2016. (In Portuguese) 
 * Pimenta, Alexandre. "[Métodos Automatizados para Investimento no Mercado de Ações via Inteligência Computacional](https://www.ppgee.ufmg.br/defesas/1082D.PDF)." *Universidade Federal de Minas Gerais*, 2017. (In Portuguese) 
 * Fonseca, George Henrique Godim da. "[Formulations and Algorithms for Timetabling](https://www.ppgee.ufmg.br/defesas/1351D.PDF), 20/04/2017, 

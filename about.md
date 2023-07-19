@@ -4,6 +4,8 @@ permalink: /about/
 title: About
 ---
 
+![orcslab](./assets/images/orcs.jpeg)
+
 The Operations Research and Complex Systems Lab (ORCS Lab), part of the [Department of Electrical Engineering](https://dee.ufmg.br/) within the [School of Engineering](https://www.eng.ufmg.br/) at the [Federal University of Minas Gerais](https://ufmg.br/) (Brazil) carries out a diverse range of research involving optimization, computational intelligence, evolutionary computation, decision-making, statistical modeling, and stochastic simulation.
 
 The group's main research fronts are:

@@ -9,8 +9,8 @@
   research_interests: Optimization, machine learning, computational intelligence, computer networks, distributed systems
 
 - name: Danilo de Quadros Maia Filho
-  role: M.Sc. student
-  photo: 
+  role: D.Sc. student
+  photo: danilo-maia.jpeg
   research_interests: Statistical modeling, survival analysis, systems reliability
 
 - name: Diego Alves da Mata
@@ -22,11 +22,6 @@
   role: D.Sc. student
   photo: elcio-silveira.gif
   research_interests: Evolutionary computation, multi-objective optimization
-
-- name: Emiliana Mara Lopes Simões
-  role: D.Sc. student
-  photo: 
-  research_interests: Combinatorial optimization, metaheuristics, public transport system planning, vehicle and crew scheduling
 
 - name: Isternândia Araújo França
   role: D.Sc. student
@@ -59,7 +54,7 @@
   research_interests: Operatios Research, project and product management
 
 - name: Miguel Monteiro Costa
-  role: M.Sc. student
+  role: D.Sc. student
   photo: miguel-monteiro.gif
   research_interests: Economic and environmental dispatch, multi-objective optimization, robust MOEA/D, decision making
 
@@ -67,13 +62,3 @@
   role: D.Sc. student
   photo: natalia-antunes.gif
   research_interests: Combinatorial optimization, exact methods, heuristics and meta-heuristics
-
-- name: Paulo Azevedo Meijon Campolina
-  role: M.Sc. student
-  photo: paulo-campolina.gif
-  research_interests: Renewable energies, power electronics and biomedical engineering
-
-- name: Victor São Paulo Ruela
-  role: M.Sc. student
-  photo: victor-ruela.gif
-  research_interests: Real-time optimization, industrial processes, machine learning

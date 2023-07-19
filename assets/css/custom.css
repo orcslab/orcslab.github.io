@@ -35,3 +35,5 @@ body {
     height: 158px;
     max-height: 158px;
 }
+
+img[alt=orcslab] { width: 500px; float: right;}
