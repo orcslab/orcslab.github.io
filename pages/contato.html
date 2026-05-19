@@ -1,0 +1,156 @@
+---
+layout: default
+permalink: /contato/
+title: Contato
+---
+
+<div class="container my-5">
+  <section class="page-hero mb-5">
+    <p class="page-hero-kicker mb-2">Fale conosco</p>
+    <h1 class="page-hero-title">Contato</h1>
+    <p class="page-hero-subtitle mb-0">
+      Entre em contato para mais informações sobre projetos, serviços e parcerias.
+    </p>
+  </section>
+
+  <div class="row mb-5">
+    <div class="col-12">
+      <div class="contact-form-card">
+        <h2 class="h4 fw-bold mb-3">Solicitar Projeto ou Parceria</h2>
+        <p class="mb-4">
+          Preencha os dados abaixo e retornaremos com direcionamento técnico inicial.
+        </p>
+
+        <form id="whatsapp-contact-form">
+          <div class="row g-3">
+            <div class="col-12 col-md-6">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" id="nome" name="Nome" class="form-control" required>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <label for="organizacao" class="form-label">Empresa/Organização</label>
+              <input type="text" id="organizacao" name="Organizacao" class="form-control" required>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <label for="email" class="form-label">E-mail</label>
+              <input type="email" id="email" name="Email" class="form-control" required>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <label for="telefone" class="form-label">Telefone</label>
+              <input type="tel" id="telefone" name="Telefone" class="form-control">
+            </div>
+
+            <div class="col-12 col-md-6">
+              <label for="tipo" class="form-label">Tipo de demanda</label>
+              <select id="tipo" name="Tipo de demanda" class="form-select" required>
+                <option value="" selected disabled>Selecione</option>
+                <option>Otimização de processos</option>
+                <option>Análise de dados</option>
+                <option>Simulação de sistemas</option>
+                <option>Consultoria científica</option>
+                <option>Outro</option>
+              </select>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <label for="prazo" class="form-label">Prazo estimado</label>
+              <input type="text" id="prazo" name="Prazo" class="form-control" placeholder="Ex: 3 meses">
+            </div>
+
+            <div class="col-12">
+              <label for="mensagem" class="form-label">Descreva brevemente o desafio</label>
+              <textarea id="mensagem" name="Mensagem" class="form-control" rows="4" required></textarea>
+            </div>
+
+            <div class="col-12 d-flex justify-content-end">
+              <button type="submit" class="btn btn-primary px-4">Enviar por WhatsApp</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-5">
+  <!-- Coluna com canais institucionais de contato -->
+  <div class="col-12 col-lg-6 mb-4">
+    <div class="d-flex flex-column gap-3 contact-info-list">
+      <!-- Canal telefônico -->
+      <div>
+        <h6><i class="bi bi-telephone-fill"></i> Telefone</h6>
+        <a>+55 31 3409-3550</a>
+      </div>
+
+      <!-- Canal WhatsApp -->
+      <div>
+        <h6><i class="bi bi-whatsapp"></i> WhatsApp</h6>
+        <a href="https://wa.me/553134093550"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="link-personalizado">
+           (31) 3409-3550
+        </a>
+      </div>
+
+      <!-- Perfil institucional no LinkedIn -->
+      <div>
+        <h6><i class="bi bi-linkedin"></i> LinkedIn</h6>
+        <a id="linkedin-link"
+          href="{{ site.linkedin_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="link-personalizado">
+          Perfil oficial do ORCS Lab
+        </a>
+      </div>
+
+      <!-- Perfil institucional no ResearchGate -->
+      <div>
+        <h6><i class="bi bi-journal-richtext"></i> ResearchGate</h6>
+        <a id="researchgate-link"
+          href="{{ site.researchgate_url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+           class="link-personalizado">
+          Perfil oficial do ORCS Lab
+        </a>
+      </div>
+
+      <!-- Organização institucional no GitHub -->
+      <div>
+        <h6><i class="bi bi-github"></i> GitHub</h6>
+        <a href="https://github.com/orcslab"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="link-personalizado">
+          Repositórios do ORCS Lab
+        </a>
+      </div>
+
+      <!-- Endereço institucional -->
+      <div>
+        <h6><i class="bi bi-geo-alt-fill"></i> Endereço</h6>
+        <p class="fs-6 m-0">
+          Av. Antônio Carlos, 6627 – Pampulha<br>
+          Belo Horizonte – MG, 31270-901
+        </p>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Coluna com localizacao no mapa -->
+  <div class="col-12 col-lg-6">
+    <div style="width: 100%; height: 100%; min-height: 300px;">
+      <iframe
+        src="https://maps.google.com/maps?q=Escola%20de%20Engenharia%20-%20UFMG%2C%20Av.%20Antonio%20Carlos%2C%206627%2C%20Belo%20Horizonte%20-%20MG&t=&z=16&ie=UTF8&iwloc=&output=embed"
+        width="100%" height="100%" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+
+</div>

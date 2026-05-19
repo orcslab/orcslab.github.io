@@ -1,96 +1,55 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en-US' }}">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/bootstrap.min.css' | relative_url }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css"
+      integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/custom.css' | relative_url }}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="{{ '/assets/images/favicon.png' | relative_url }}"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="{{ '/assets/images/favicon.png' | relative_url }}"
+    />
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="{{ site.author }}">
-    <meta name="description" content="{{ site.description }}">
+    <title>{{ page.title }} · ORCS Lab </title>
+  </head>
 
-    <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}" />
+  <body>
+    {% include header.html %}
 
-    <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url }}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    <main id="main-content" class="my-4">{{ content }}</main>
 
-    <title>ORCS Lab · UFMG</title>
-</head>
+    <a
+      class="whatsapp-float-btn"
+      href="https://wa.me/553134093550"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Falar com o ORCS Lab no WhatsApp"
+      title="Fale conosco no WhatsApp"
+    >
+      <i class="bi bi-whatsapp" aria-hidden="true"></i>
+      <span>WhatsApp</span>
+    </a>
 
-<body>
-
-    <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-light bg-light border-bottom shadow-sm">
-        <div class="container">
-            <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                {% for item in site.data.navbar %}
-                    {% if page.url == item.url %}
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                    </li>
-                    {% else %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                    </li>
-                    {% endif %}
-                {% endfor %}
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <main id="main-content" class="my-4">
-        {{ content }}
-    </main>
-
-    <footer id="footer"  class="py-5 bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-6 mb-5">
-                    <h6>
-                        <i class="bi bi-geo-alt-fill"></i> Address
-                    </h6>
-                    <p class="fs-6">
-                        Operations Research and Complex Systems Lab.<br>
-                        Room 1214, Department of Electrical Engineering<br>
-                        School of Engineering, UFMG, Av. Pres. Antônio Carlos 6627<br>
-                        31275-013 - Belo Horizonte, Brazil
-                    </p>
-                    <h6 class="mt-5">
-                        <i class="bi bi-telephone-fill"></i> Phone
-                    </h6>
-                    <p class="fs-6">
-                        +55 31 3409-3550
-                    </p>
-                </div>
-                <div class="col-12 col-lg-6 mb-5">
-                    <iframe width="100%" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=School%20of%20Engineering,%20UFMG,%20Brazil&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                </div>
-            </div>
-            <div class="d-flex justify-content-between border-top text-muted">
-                <div>
-                    <p class="fs-6">
-                        &copy; 2022 Operations Research and Complex Systems Lab. All rights reserved. <br>
-                        We are part of the <a href="https://www.eng.ufmg.br/">School of Engineering</a> 
-                        at <a href="https://ufmg.br/">Universidade Federal de Minas Gerais (UFMG)</a>
-                    </p>
-                </div>
-                <ul class="list-unstyled d-flex fs-4">
-                    <li class="ms-3"><a class="text-muted" href="{{ site.github_url }}"><i class="bi bi-github"></i></a></li>
-                    <li class="ms-3"><a class="text-muted" href="{{ site.linkedin_url }}"><i class="bi bi-linkedin"></i></a></li>
-                    <li class="ms-3"><a class="text-muted" href="{{ site.researchgate_url }}"><i class="bi bi-mortarboard-fill"></i></a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-
+    {% include footer.html %}
     <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
-
-</body>
-
+  </body>
 </html>

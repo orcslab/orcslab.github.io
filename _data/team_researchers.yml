@@ -1,52 +1,6 @@
-- name: André Costa Batista
+- name: Maria Izabel Correa dos Santos
   role: D.Sc. student
-  photo: andre-batista.jpg
-  research_interests: Microwave Imaging, Optimization, Inverse Problems
-
-- name: Carlos Eduardo Rodrigues Nogueira
-  role: D.Sc. student
-  photo: carlos-nogueira.gif
-  research_interests: Optimization, Smart Grids, Decision Making
-
-- name: Jean Nunes Ribeiro Araújo
-  role: D.Sc. student
-  photo: jean-nunes.jpg
-  research_interests: Optimization, machine learning, computational intelligence, computer networks, distributed systems
-
-- name: Danilo de Quadros Maia Filho
-  role: D.Sc. student
-  photo: danilo-maia.jpeg
-  research_interests: Statistical modeling, survival analysis, systems reliability
-
-- name: Diego Alves da Mata
-  role: M.Sc. student
-  photo: diego-mata.gif
-  research_interests: Statistical modeling, survival analysis, systems reliability
-
-- name: Hannah Walder Lorenzato Cardoso
-  role: M.Sc. student
-  photo: hannah-cardoso.gif
-  research_interests: Optimization, vehicle production process
-
-- name: Isternândia Araújo França
-  role: D.Sc. student
-  photo: isternandia-franca.gif
-  research_interests: Network optimization, combinatorial optimization, network reconfiguration
-
-- name: Leonardo de Alvarenga Gualberto
-  role: M.Sc. student
-  photo: leonardo-gualberto.gif
-  research_interests: Evolutionary computation, large-scale optimization problems
-
-- name: Miguel Monteiro Costa
-  role: D.Sc. student
-  photo: miguel-monteiro.gif
-  research_interests: Economic and environmental dispatch, multi-objective optimization, robust MOEA/D, decision making
-
-- name: Natália Antunes
-  role: D.Sc. student
-  photo: natalia-antunes.gif
-  research_interests: Combinatorial optimization, exact methods, heuristics and meta-heuristics
+  photo: avatar.jpg
 
 - name: Pedro Vinícius Almeida Borges de Venâncio
   role: D.Sc. student
@@ -62,3 +16,69 @@
   role: D.Sc. student
   photo: vitor-vidal.gif
   research_interests: Electronic systems and controls, software engineering, evolutionary computation
+
+- name: João Pedro Araújo Ferreira Campos
+  role: D.Sc. student
+  photo: avatar.jpg
+
+- name: Marcus Vinícius de Freitas Diadelmo
+  role: D.Sc. student
+  photo: avatar.jpg
+
+- name: Bernardo Bacha de Resende
+  role: M.Sc. student
+  photo: avatar.jpg
+
+- name: Hannah Walder Lorenzato Cardoso
+  role: M.Sc. student
+  photo: hannah-cardoso.gif
+  research_interests: Optimization, vehicle production process
+
+- name: Henrique Alves Barbosa
+  role: M.Sc. student
+  photo: avatar.jpg
+
+- name: Leonardo de Alvarenga Gualberto
+  role: M.Sc. student
+  photo: leonardo-gualberto.gif
+  research_interests: Evolutionary computation, large-scale optimization problems
+
+- name: Lourival Fernandes Nogueira Neto
+  role: M.Sc. student
+  photo: avatar.jpg
+
+- name: Antonio Carlos da Anunciação
+  role: M.Sc. student
+  photo: avatar.jpg
+
+- name: Dárcio Melo Bragança Silva
+  role: M.Sc. student
+  photo: avatar.jpg
+
+- name: Giovanna Cristina da Rocha
+  role: M.Sc. student
+  photo: avatar.jpg
+
+- name: Raphael Anderson da Silva
+  role: M.Sc. student
+  photo: avatar.jpg
+
+- name: Willian Felix Souza e Silva
+  role: M.Sc. student
+  photo: avatar.jpg
+
+- name: Raissa Diniz
+  role: B.Sc. student
+  photo: avatar.jpg
+
+- name: André Procópio
+  role: B.Sc. student
+  photo: avatar.jpg
+
+- name: Igor Falco
+  role: B.Sc. student
+  photo: avatar.jpg
+
+- name: Lucas Ribeiro
+  role: B.Sc. student
+  photo: avatar.jpg
