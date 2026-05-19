@@ -1,12 +1,4 @@
-- name: Eduardo G. Carrano
-  title: D.Sc. in Electrical Engineering
-  institute: Universidade Federal de Minas Gerais
-  country: Brazil
-  email: egcarrano@ufmg.br
-  lattes: 4022838844024162
-  photo: eduardo-carrano.jpg
-  
-- name: Lucas S. Batista
+- name: Lucas de Souza Batista
   title: D.Sc. in Electrical Engineering
   institute: Universidade Federal de Minas Gerais
   country: Brazil
@@ -21,3 +13,15 @@
   email: mbessani@ufmg.br
   lattes: 9450846955939545
   photo: michel-bessani.jpg
+
+- name: André Costa Batista
+  title: D.Sc. in Electrical Engineering
+  institute: Universidade Federal de Minas Gerais
+  country: Brazil
+  photo: andre-batista.jpg
+
+- name: Luiza Bernardes Real
+  title: D.Sc. in Electrical Engineering
+  institute: Universidade Federal de Minas Gerais
+  country: Brazil
+  photo: avatar.jpg

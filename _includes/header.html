@@ -1,0 +1,78 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <!-- Identidade visual do laboratório -->
+      <a class="navbar-brand" href="{{ '/' | relative_url }}">
+        <img
+          src="{{ '/assets/images/orcs_logo.png' | relative_url }}"
+          alt="ORCS Lab"
+          class="site-logo"
+        />
+      </a>
+
+      <!-- Acionador do menu em telas menores -->
+      <button
+        class="navbar-toggler orcs-menu-toggle"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarOrcs"
+        aria-controls="navbarOrcs"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+
+      <!-- Navegação principal do site -->
+      <div class="collapse navbar-collapse" id="navbarOrcs">
+        <ul class="navbar-nav ms-lg-auto ms-0 w-100 w-lg-auto justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/' | relative_url }}">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/quemsomos/' | relative_url }}"
+              >Quem Somos</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/equipe/' | relative_url }}"
+              >Equipe</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/pesquisa/' | relative_url }}"
+              >Pesquisa</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="{{ '/parceiros/' | relative_url }}"
+              >Parceiros</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/servicos/' | relative_url }}"
+              >Serviços</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ '/acontece/' | relative_url }}"
+              >Acontece</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link nav-contact-btn btn btn-primary ms-lg-3 px-3"
+              href="{{ '/contato/' | relative_url }}"
+            >
+              Contato
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

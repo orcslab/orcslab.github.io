@@ -1,0 +1,247 @@
+---
+layout: default
+permalink: /equipe/
+title: Equipe
+---
+
+<div class="container my-5">
+  <section class="page-hero mb-5">
+    <p class="page-hero-kicker mb-2">Capital humano</p>
+    <h1 class="page-hero-title">Nossa Equipe</h1>
+    <p class="page-hero-subtitle mb-0">
+      Pesquisadores e colaboradores que combinam rigor científico e aplicação prática.
+    </p>
+  </section>
+
+  <section class="mb-5">
+  <h2 class="section-block-title mb-3">Professores responsáveis</h2>
+  <div class="row mb-5">
+    {% for member in site.data.team_members %}
+    <div class="col-12 col-lg-6 mb-3">
+      <div class="card team-member team-card-rich">
+        <div class="row g-0">
+          <div class="col-auto p-2">
+            <img
+              class="img-thumbnail rounded-circle"
+              src="{{ '/assets/images/team' | relative_url }}/{{ member.photo | default: 'avatar.jpg' }}"
+              alt="{{ member.name }}"
+            />
+          </div>
+          <div class="col">
+            <div class="card-body">
+              <h6 class="card-title team-name">{{ member.name }}</h6>
+              <h6 class="card-subtitle text-muted">{{ member.title | default: 'Professor responsável' }}</h6>
+              <p class="card-text mt-3">
+                {% if member.institute %}
+                <i class="bi bi-bank"></i> {{ member.institute }} <br />
+                {% endif %}
+                {% if member.email %}
+                <i class="bi bi-envelope"></i>
+                <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+                <br />
+                {% endif %}
+                {% if member.lattes %}
+                <i class="bi bi-file-earmark-person"></i>
+                <a href="http://lattes.cnpq.br/{{ member.lattes }}">CV Lattes</a>
+                {% endif %}
+                {% unless member.institute or member.email or member.lattes %}
+                <i class="bi bi-info-circle"></i> Informações em atualização.
+                {% endunless %}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  </section>
+
+  <section class="mb-5">
+  <h2 class="section-block-title mb-3">Professores colaboradores</h2>
+  <div class="row mb-5">
+    {% for member in site.data.team_collaborators %}
+    <div class="col-12 col-lg-6 mb-3">
+      <div class="card team-member team-card-rich">
+        <div class="row g-0">
+          <div class="col-auto p-2">
+            <img
+              class="img-thumbnail rounded-circle"
+              src="{{ '/assets/images/team' | relative_url }}/{{ member.photo | default: 'avatar.jpg' }}"
+              alt="{{ member.name }}"
+            />
+          </div>
+          <div class="col">
+            <div class="card-body">
+              <h6 class="card-title team-name">{{ member.name }}</h6>
+              <h6 class="card-subtitle text-muted">{{ member.title }}</h6>
+              <p class="card-text mt-3">
+                <i class="bi bi-bank"></i> {{ member.institute }}, {{ member.country }} <br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  </section>
+
+  <section class="mb-5">
+  <h2 class="section-block-title mb-3">Estudantes de doutorado</h2>
+  <div class="row mb-5">
+    {% assign doctoral_students = site.data.team_researchers | where: "role", "D.Sc. student" %}
+    {% for member in doctoral_students %}
+    <div class="col-12 col-lg-6 mb-3">
+      <div class="card team-member team-card-rich">
+        <div class="row g-0">
+          <div class="col-auto p-2">
+            <img
+              class="img-thumbnail rounded-circle"
+              src="{{ '/assets/images/team' | relative_url }}/{{ member.photo | default: 'avatar.jpg' }}"
+              alt="{{ member.name }}"
+            />
+          </div>
+          <div class="col">
+            <div class="card-body">
+              <h6 class="card-title team-name">{{ member.name }}</h6>
+              <h6 class="card-subtitle text-muted">{{ member.role | default: 'D.Sc. student' }}</h6>
+              <p class="card-text mt-3">
+                {% if member.research_interests %}
+                <i class="bi bi-search"></i>
+                <span class="text-lowercase">
+                  {{ member.research_interests | normalize_whitespace | split:
+                  ", " | array_to_sentence_string }}
+                </span>
+                {% else %}
+                <i class="bi bi-info-circle"></i> Informações em atualização.
+                {% endif %}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  </section>
+
+  <section class="mb-5">
+  <h2 class="section-block-title mb-3">Estudantes de mestrado</h2>
+  <div class="row mb-5">
+    {% assign masters_students = site.data.team_researchers | where: "role", "M.Sc. student" %}
+    {% for member in masters_students %}
+    <div class="col-12 col-lg-6 mb-3">
+      <div class="card team-member team-card-rich">
+        <div class="row g-0">
+          <div class="col-auto p-2">
+            <img
+              class="img-thumbnail rounded-circle"
+              src="{{ '/assets/images/team' | relative_url }}/{{ member.photo | default: 'avatar.jpg' }}"
+              alt="{{ member.name }}"
+            />
+          </div>
+          <div class="col">
+            <div class="card-body">
+              <h6 class="card-title team-name">{{ member.name }}</h6>
+              <h6 class="card-subtitle text-muted">{{ member.role | default: 'M.Sc. student' }}</h6>
+              <p class="card-text mt-3">
+                {% if member.research_interests %}
+                <i class="bi bi-search"></i>
+                <span class="text-lowercase">
+                  {{ member.research_interests | normalize_whitespace | split:
+                  ", " | array_to_sentence_string }}
+                </span>
+                {% else %}
+                <i class="bi bi-info-circle"></i> Informações em atualização.
+                {% endif %}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  </section>
+
+  {% assign undergrad_students = site.data.team_researchers | where: "role", "B.Sc. student" %}
+  {% if undergrad_students and undergrad_students.size > 0 %}
+  <section class="mb-5">
+  <h2 class="section-block-title mb-3">Iniciação científica</h2>
+  <div class="row mb-5">
+    {% for member in undergrad_students %}
+    <div class="col-12 col-lg-6 mb-3">
+      <div class="card team-member team-card-rich">
+        <div class="row g-0">
+          <div class="col-auto p-2">
+            <img
+              class="img-thumbnail rounded-circle"
+              src="{{ '/assets/images/team' | relative_url }}/{{ member.photo | default: 'avatar.jpg' }}"
+              alt="{{ member.name }}"
+            />
+          </div>
+          <div class="col">
+            <div class="card-body">
+              <h6 class="card-title team-name">{{ member.name }}</h6>
+              <h6 class="card-subtitle text-muted">{{ member.role }}</h6>
+              <p class="card-text mt-3">
+                {% if member.research_interests %}
+                <i class="bi bi-search"></i>
+                <span class="text-lowercase">
+                  {{ member.research_interests | normalize_whitespace | split:
+                  ", " | array_to_sentence_string }}
+                </span>
+                {% else %}
+                <i class="bi bi-info-circle"></i> Informações em atualização.
+                {% endif %}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  </section>
+  {% endif %}
+
+  <section>
+  <h2 class="section-block-title mb-3">Egressos</h2>
+  <div class="row mb-5 gx-4">
+    {% assign people = site.data.team_alumni | sort: "year" | reverse %} {% for
+    member in people %}
+    <div class="col-6 col-lg-3 mb-3 team-member text-center alumni-card">
+      <img
+        class="img-thumbnail rounded-circle"
+        src="{{ '/assets/images/team' | relative_url }}/{{ member.photo | default: 'avatar.jpg' }}"
+        alt="{{ member.name }}"
+      />
+      <h6 class="card-title mt-2 mb-0">{{ member.name }}</h6>
+      <p class="mt-1">{{ member.position }}, {{ member.year }}</p>
+    </div>
+    {% endfor %}
+
+    {% for member in site.data.team_researchers %}
+      {% unless member.role == "D.Sc. student" or member.role == "M.Sc. student" %}
+      <div class="col-6 col-lg-3 mb-3 team-member text-center alumni-card">
+        <img
+          class="img-thumbnail rounded-circle"
+          src="{{ '/assets/images/team' | relative_url }}/{{ member.photo | default: 'avatar.jpg' }}"
+          alt="{{ member.name }}"
+        />
+        <h6 class="card-title mt-2 mb-0">{{ member.name }}</h6>
+        <p class="mt-1">{{ member.role }}</p>
+      </div>
+      {% endunless %}
+    {% endfor %}
+  </div>
+
+  </section>
+
+  <section class="cta-strip text-center">
+    <h2>Quer desenvolver um projeto com nosso time?</h2>
+    <p class="mb-3">Conectamos especialistas do ORCS Lab ao seu desafio com foco em resultado.</p>
+    <a href="{{ '/contato/' | relative_url }}" class="btn btn-primary px-4">Solicitar proposta</a>
+  </section>
+</div>
